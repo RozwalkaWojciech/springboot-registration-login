@@ -26,7 +26,7 @@ public class UserRepositoryTest {
 
         User user = User.builder()
                 .email("test@gmail.com")
-                .password("test")
+                .password("password")
                 .firstName("testName")
                 .lastName("testLastName")
                 .build();
